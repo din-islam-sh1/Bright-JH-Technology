@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright JH - Technology</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+ 
+<body>
+       <!-- Slider - section start -->
+ <div class="slider-menu" id="slider-menu">
+        <div class="slider-control-btn">
+            <span  onclick="openNav()">
+                <a href="javascript:void(0)" ><i class="fa fa-gear"></i></a>
+            </span>
+        </div>
+        <div class="slider_colors">
+            <div class="red_btn color_btn" onclick="closeNav()"></div>
+            <div class="green_btn color_btn"  onclick="closeNav()"></div>
+            <div class="yellow_btn color_btn"  onclick="closeNav()"></div>
+        </div>
+        <div class="slider_colors">
+            <div class="blue_btn color_btn"  onclick="closeNav()"></div>
+            <div class="cyan_btn color_btn"  onclick="closeNav()"></div>
+            <div class="orange_btn color_btn"  onclick="closeNav()"></div>
+        </div>
+
+    </div>
+    <!-- Slider - section end -->
+
+    <!-- Header - section start -->
+    <div class="container-fluid header-wrapper">
+        <div class="container header">
+            <div class="row">
+
+                <!-- header logo -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="main-logo">
+                        <img src="./images/logo.png" alt="BRIGHT JH">
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="header-menu">
+<!--for responsive-->   <div class="header-menu-close-btn" onclick="closeMobileNav()">
+                            <span><i class="fas fa-times"></i></span>
+                        </div>  
+                        <div class="menu-content">
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li class="dropdown-toogle"><a href="#">SERVICES</a>
+                                    <div class="dropdown-menu">
+                                        <div class="dropdown-menu-content">
+                                            <ul>
+                                                <li><a href="#">Network & Security Engineering</a></li>
+                                                <li><a href="#">Server & Storage Management</a></li>
+                                                <li><a href="#">Hardware & Software Installations</a></li>
+                                                <li><a href="#">Cloud Solutions</a></li>
+                                                <li><a href="#">Hosted Email & Collaboration Suites</a></li>
+                                                <li><a href="#">24/7 Customer Care</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-menu-open-btn">
+                        <div class="hamburger-menu" onclick="openMobileNav()">
+                            <span><i class="fas fa-bars"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header - section end -->
+
+    <!-- Hero - section start -->
+    <div class="container-fluid hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-texts">
+                        <h1>Technology Website Made Easy!</h1>
+                        <p>The most complete field service software for IT & Mobile Support, Fire Services, Electrical, Maintenance, HVAC & Security Industries</p>
+                        <div class="hero-button">
+                            <a href="#">SIGN UP FREE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero - section end -->
+
+    <!-- We Do - section start -->
+    <div class="container-fliud we-do-bg">
+        <div class="container we-do">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <!-- <div class="we-do-sec-img">
+                        <img src="./images/laptopes.png" alt="we do manythings">
+                    </div> -->
+                </div>
+                <div class="col-lg-7 col-md-10 col-sm-12 col-12">
+                    <div class="we-do-sec-texts">
+                        <h2>What We do?</h2>
+                        <p>Small businesses and individuals in Teton County, Wyoming wanting the best of breed technology and information security services. I work with each customer to determine their needs and integrate multiple platforms to create a custom solution.  </p>
+                        <div class="we-do-sec-btn">
+                            <a href="#">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- We Do - section end -->
+
+    <!-- Services - section start -->
+    <div class="container services">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="services-top-headings text-center">
+                <h2>Our Services</h2>
+                <p>Fieldmagic is the most comprehensive field service & asset management platform on the market, combining ease of use, performance and flexibility with out of the box integration with all major accounting and ERP platforms.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="services-item">
+                    <div class="services-item-img">
+                        <img src="./images/services-1.png" alt="service-1">
+                    </div>
+                    <div class="services-item-details">
+                        <h3>Network & Security Engineering</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. industry's standard a type specimen book</p>
+                    </div>
+                </div>
+                <div class="services-btn">
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="services-item">
+                    <div class="services-item-img">
+                        <img src="./images/services-2.png" alt="service-2">
+                    </div>
+                    <div class="services-item-details">
+                        <h3>Server & Storage Management</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. industry's standard a type specimen book</p>
+                    </div>
+                </div>
+                <div class="services-btn">
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="services-item">
+                    <div class="services-item-img">
+                        <img src="./images/services-3.png" alt="service-3">
+                    </div>
+                    <div class="services-item-details">
+                        <h3>Hardware & Software Installations</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. industry's standard a type specimen book</p>
+                    </div>
+                </div>
+                <div class="services-btn">
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="services-item services-item_withBackground">
+                    <div class="newslatter-sec">
+                        <div class="newslatter-inviting">
+                            <h3>Join & Stay Connect</h3>
+                            <p>Stay updated with the latest news, stories and discounts.</p>
+                            <!-- <div class="newslatter-email-sec">
+                                <input type="email" placeholder="Enter Your E-mail">
+                            </div>
+                            <div class="newslatter-btn">
+                                <a href="#">SUBSCRIBE</a>
+                            </div> -->
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 col-10 mx-auto">
+                                <div class="get-newslatter-box">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-9">
+                                            <div class="newslatter-email-sec">
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-3">
+                                            <div class="newslatter-btn">
+                                                <a href="#">SUBSCRIBE</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">  
+                <div class="services-item">
+                    <div class="services-item-img">
+                        <img src="./images/services-5.png" alt="service-4">
+                    </div>
+                    <div class="services-item-details">
+                        <h3>Cloud Solutions</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. industry's standard a type specimen book</p>
+                    </div>
+                </div>
+                <div class="services-btn">
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="services-item">
+                    <div class="services-item-img">
+                        <img src="./images/services-6.png" alt="service-5">
+                    </div>
+                    <div class="services-item-details">
+                        <h3>Hosted Email & Collaboration Suites</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. industry's standard a type specimen book</p>
+                    </div>
+                </div>
+                <div class="services-btn">
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services - section end -->
+ 
+    <!-- Choose Us - section start -->
+    <div class="container choose-us">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                <div class="cta-sec">
+                    <h6>WHY CHOOSE US</h6>
+                    <h2>Make Life With Bright JH</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="cta-btns">
+                    <div class="common-btn cta-left-btn">
+                        <a id="hero-button" href="#">SIGN UP FREE</a>
+                    </div>
+                    <div class="common-btn cta-right-btn">
+                        <a href="#">WATCH VIDEO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-sm-12 col-12">
+                <div class="row">
+                    <div class="col-lg-2 col-2">
+                        <div class="counter-sec">
+                            <div class="counter-left-part">
+                                <span class="numbers">20</span>
+                                <span class="about">EMPLOYEES</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="counter-sec">
+                            <div class="counter-desc">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-2">
+                        <div class="counter-sec">
+                            <div class="counter-left-part">
+                                <span class="numbers">220</span>
+                                <span class="about">PROJECTS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="counter-sec">
+                            <div class="counter-desc">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-2">
+                        <div class="counter-sec">
+                            <div class="counter-left-part">
+                                <span class="numbers">200</span>
+                                <span class="about">CLIENTS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-10">
+                        <div class="counter-sec">
+                            <div class="counter-desc">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Choose Us - section end -->
+
+    <!-- Support -section start -->
+    <div class="container-fluid support-wrapper">
+        <div class="container support">
+            <div class="row">
+
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div class="support-part-details">
+                        <h3>24/7 Real Support</h3>
+                        <p>Feature creep going forward you better eat a reality sandwich
+                            before you walk back in that boardroom can you send me an invite</p>
+                        <div class="support-btn">
+                            <a href="#">CONTACT SUPPORT</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-12">
+                    <div class="support-part-img">
+                        <img src="./images/support-img.png" alt="All time support">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Support -section end -->
+
+    <!-- Blog - section start -->
+    <div class="container-fluid full-blog-wrapper">
+        <div class="container blog">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="blog-details text-center">
+                        <h2>Our Latest Blog</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-12">
+                    <div class="blog-item">
+                        <div class="top-blog-item">
+                            <div class="blog-item-box">
+                                <div class="blog-item-img">
+                                    <img src="./images/blog-1.jpg" alt="blog post img" class="img-fluid w-100">
+                                </div>
+                                <div class="blog-item-details">
+                                    <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-pub-time">
+                                <span class="pub-date">20</span>
+                                <br>
+                                <span class="pub-day">APR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12">
+                    <div class="blog-item">
+                        <div class="other-blog-item">
+                            <div class="blog-item-box">
+                                <div class="blog-item-img">
+                                    <img src="./images/blog-2.jpg" alt="blog post img">
+                                </div>
+                                <div class="blog-item-details">
+                                    <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                                <div class="blog-item-pub-time">
+                                    <span class="pub-date">21</span>
+                                    <br>
+                                    <span class="pub-day">APR</span>
+                                </div>
+                            </div>
+                            <div class="blog-item-box">
+                                <div class="blog-item-img">
+                                    <img src="./images/blog-3.jpg" alt="blog post img">
+                                </div>
+                                <div class="blog-item-details">
+                                    <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                                <div class="blog-item-pub-time">
+                                    <span class="pub-date">22</span>
+                                    <br>
+                                    <span class="pub-day">APR</span>
+                                </div>
+                            </div>
+                            <div class="blog-item-box">
+                                <div class="blog-item-img">
+                                    <img src="./images/blog-4.jpg" alt="blog post img">
+                                </div>
+                                <div class="blog-item-details">
+                                    <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                                <div class="blog-item-pub-time">
+                                    <span class="pub-date">23</span>
+                                    <br> 
+                                    <span class="pub-day">APR</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog - section end -->
+
+    <!-- Footer - section start -->
+    <div class="container-fluid footer-wrapper">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="about-company-sec">
+                        <div class="company-logo">
+                            <img src="./images/logo.png" alt="Bright JH">
+                        </div>
+                        <div class="company-details">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                    <div class="links-sec">
+                        <h3>Important Links</h3>
+                        <ul class="pt-17">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="twitter-sec">
+                        <h3>Twitter Feed</h3>
+                        <div class="twitter-post">
+                            <p><span>we can't recommend anyone specific, but you can find a list of freelenacers working wit…</span> <a href="https://t.co/fs1gMcMOej">https://t.co/fs1gMcMOej</a> </p>
+                        </div>
+                        <div class="twitter-post">
+                            <p><span>we can't recommend anyone specific, but you can find a list of freelenacers working wit…</span> <a href="https://t.co/fs1gMcMOej">https://t.co/fs1gMcMOej</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="office-location-sec">
+                        <h3>Our Office</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img src="./images/map.png" alt="location in map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fliud footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="copyright-details">
+                        <p>2020 © Copyright Bright JH</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer - section end -->
+
+
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

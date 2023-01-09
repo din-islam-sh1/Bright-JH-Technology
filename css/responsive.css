@@ -1,0 +1,364 @@
+:root {
+    --Roboto: 'Roboto', sans-serif;
+    --fz16: 16px;
+    --fz18: 18px;
+    --primary-color: #4b4b4d;
+    --secondary-color: #16c2a3;
+}
+
+@media only screen and (max-width: 320.97px) {
+
+    * { 
+        padding: 0;
+        margin: 0;
+    }
+
+    /* .header .header-menu ul li {
+        display: none;
+    } */
+
+
+    .choose-us .cta-btns .common-btn a {
+        text-decoration: none;
+        font-family: var(--Roboto);
+        font-weight: 400;
+        font-size: 12px;
+        color: #fafeff;
+        padding: 15px 30px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    .choose-us .cta-btns {
+        text-align: center;
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .choose-us .cta-btns .cta-left-btn {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer .about-company-sec .company-details p {
+        padding-top: 28px;
+        font-family: var(--Roboto);
+        font-size: 14px;
+        font-weight: 400;
+        color: #484949;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 449.97px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* .header .header-menu ul li {
+        display: none;
+    } */
+
+    .choose-us .cta-btns {
+        text-align: center;
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .choose-us .cta-btns .cta-left-btn {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer .about-company-sec .company-details p {
+        padding-top: 28px;
+        font-family: var(--Roboto);
+        font-size: 14px;
+        font-weight: 400;
+        color: #484949;
+    }
+
+}
+
+
+
+@media (min-width: 450px) and (max-width: 574.98px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* .header .header-menu ul li {
+        display: none;
+    } */
+
+    .we-do-bg {
+        background: url('../images/laptopes.png');
+        background-repeat: no-repeat;
+        margin-top: 115px;
+    }
+
+    .we-do-bg .we-do .we-do-sec-texts {
+        margin-top: 530px;
+    }
+
+    .services .services-top-headings p {
+        color: #4b4b4d;
+        font-family: var(--Roboto);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .services .services-item {
+        text-align: center;
+        border-width: 3px;
+        border-style: solid;
+        border-image: linear-gradient(38deg, rgba(4, 194, 168, 1) 0%, rgba(254, 198, 103, 1) 100%) 1;
+        margin-bottom: 58px;
+        position: relative;
+        height: 360px;
+    }
+
+    .services .services-btn {
+        position: absolute;
+        bottom: 48px;
+        left: 190px;
+    }
+
+    .services-item .newslatter-sec .get-newslatter-box {
+        background: #ffffff;
+        margin-bottom: 45px;
+        /* height: 60px; */
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    .services .services-item .newslatter-sec .get-newslatter-box .newslatter-email-sec {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -50px;
+    }
+
+    .services .services-item .newslatter-sec .get-newslatter-box .newslatter-email-sec input {
+        width: 200px;
+        background: transparent;
+        border: none;
+    }
+
+    .services-item .newslatter-sec .newslatter-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: -70px;
+    }
+
+    .choose-us .cta-btns {
+        margin-bottom: 50px;
+    }
+
+    .choose-us .counter-sec .counter-desc {
+        margin-left: 15px;
+        /* position: relative; */
+    }
+
+    .choose-us .counter-sec .counter-desc::before {
+        position: absolute;
+        content: '';
+        height: 111px;
+        width: 2px;
+        background-color: #16c2a3;
+        top: 0;
+        left: -10px;
+    }
+
+    .choose-us .counter-sec .counter-left-part {
+        margin-left: 10px;
+        margin-top: 15px;
+        line-height: 28px;
+    }
+
+    .choose-us .counter-sec .counter-left-part .numbers {
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 36px;
+        color: #16c2a3;
+    }
+
+    .choose-us .counter-sec .counter-left-part .about {
+        font-family: var(--Roboto);
+        font-size: 12px;
+        font-weight: 400;
+        color: var(--primary-color);
+    }
+
+    .support .support-part-details {
+        margin-top: 10px;
+    }
+
+    .blog .blog-details p {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    .blog .blog-item .top-blog-item {
+        padding-bottom: 30px;
+    }
+
+    .blog .blog-item .blog-item-box .blog-item-details h3 {
+        color: var(--primary-color);
+        font-family: var(--Roboto);
+        font-weight: 500;
+        font-size: 20px;
+        padding: 25px 16px 20px 20px;
+    }
+
+    .blog .blog-item .blog-item-box .blog-item-details a {
+        text-decoration: none;
+        font-family: var(--Roboto);
+        font-weight: 500;
+        font-size: var(--fz18);
+        color: #484949;
+        padding-left: 20px;
+    }
+
+    .footer .about-company-sec .company-details p {
+        padding-top: 28px;
+        font-family: var(--Roboto);
+        font-size: 14px;
+        font-weight: 400;
+        color: #484949;
+    }
+
+    .footer .links-sec {
+        text-align: center;
+    }
+
+    .footer .links-sec h3 {
+        padding-top: 18px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: var(--Roboto);
+        color: var(--primary-color);
+    }
+
+    .footer .twitter-sec h3 {
+        padding-top: 18px;
+        color: var(--primary-color);
+        font-family: var(--Roboto);
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .footer .twitter-sec .twitter-post p {
+        font-family: var(--Roboto);
+        font-weight: 400;
+        font-size: var(--fz16);
+    }
+
+    .footer .twitter-sec .twitter-post p {
+        font-family: var(--Roboto);
+        font-weight: 400;
+        font-size: var(--fz16);
+    }
+
+    .footer .office-location-sec {
+        text-align: center;
+    }
+
+    .footer .office-location-sec h3 {
+        padding-top: 18px;
+    } 
+
+}
+
+
+@media (max-width: 991.99px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header .header-menu .menu-content ul li {
+        text-align: center;
+    }
+
+    .header .header-menu .menu-content ul li a {
+        color: var(--primary-color);
+        padding-left: 0;
+    }
+
+    .header-wrapper .header .header-menu {
+        text-align: right;
+        background-color: var(--secondary-color);
+        position: fixed;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        display:block;
+        transition-duration: 0.9s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+}
+
+    .header-wrapper .header .header-menu .header-menu-close-btn {
+        display: block;
+    }
+
+    .header .header-menu-close-btn span i {
+        font-size: 33px;
+        color: #ffffff;
+    }
+
+    .header .header-menu-open-btn {
+        text-align: right;
+        display: block;
+    }
+
+    .header .header-menu-open-btn span i {
+        font-size: 33px;
+        color: #ffffff;
+        padding-top: 20px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .header .header-menu .menu-content {
+        text-align: right;
+    }
+
+    .header .header-menu .menu-content ul li {
+        display: inline-block;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
